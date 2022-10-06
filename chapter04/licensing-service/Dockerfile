@@ -3,6 +3,9 @@
 # Start with a base image containing Java runtime
 FROM openjdk:20-ea-17-jdk-slim as build
 
+# Add Maintainer Info
+LABEL maintainer="Karibzhanov Alisher <alisktl@gmail.com>"
+
 # The application's jar file
 ARG JAR_FILE=target/*.jar
 
