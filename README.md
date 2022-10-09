@@ -1,5 +1,5 @@
 # Spring Microservices in Action
-Projects from the "Spring Microservices in Action, Second Edition" book.
+Projects from the [Spring Microservices in Action, Second Edition](https://www.manning.com/books/spring-microservices-in-action) book.
 
 ## Chapters
 1. [Welcome to the cloud, Spring](./chapter01)
