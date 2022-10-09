@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native #, git
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:./config
+        #git:
+          #uri: https://github.com/ihuaylupo/config.git
+          #searchPaths: licensingservice
+
+server:
+  port: 8071
+
+encrypt:
+  key: fs98fsufs9e8fsf9dfs4efs8de2d3rf4ef3frf3f0
+
+# Enable all Spring Boot Actuator endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
